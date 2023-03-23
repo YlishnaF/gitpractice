@@ -1,0 +1,13 @@
+#2.1
+#a
+build/*
+#b
+**/*.jar
+!**/module2.jar
+#c
+**/aplication-local.properties
+#d
+/.idea_copy/*
+!/.idea_copy/workspace.xml
+/.idea
+#2.2 мы исключили все папки build первым пунктом в 2.1
